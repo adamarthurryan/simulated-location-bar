@@ -14,6 +14,7 @@ export default class LocationBar extends React.Component {
       <div className="ui segment basic">
           <button class="ui button" onClick={this.onPrev.bind(this)}>&lt;</button>        
           <button class="ui button" onClick={this.onNext.bind(this)}>&gt;</button>        
+          &nbsp;
           <input type='text' value={this.props.location.pathname} onChange={this.onChangePath.bind(this)}></input>
       </div>
       <div className="ui segment attached bottom">
