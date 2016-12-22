@@ -1,6 +1,6 @@
 {
   "name": "simulated-location-bar",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "a simple React component for use in simulating a location bar for embedded examples of react-router — eg. for use with CodePen or JSBin.",
   "main": "./src/LocationBar.js",
   "scripts": {
