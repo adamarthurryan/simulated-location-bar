@@ -1,4 +1,4 @@
-class LocationBar extends React.Component {
+export default class LocationBar extends React.Component {
   onChangePath(event) {
     this.props.router.push(event.target.value)
   }
